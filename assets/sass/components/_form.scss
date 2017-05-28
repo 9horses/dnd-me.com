@@ -68,6 +68,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="mce-EMAIL"],
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
@@ -125,6 +126,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="mce-EMAIL"],
 	select {
 		height: _size(element-height);
 	}
